@@ -1,0 +1,8 @@
+psycopg2
+os
+json
+numpy
+sentence-transformers
+torch
+AutoModelForSequenceClassification
+AutoTokenizer
