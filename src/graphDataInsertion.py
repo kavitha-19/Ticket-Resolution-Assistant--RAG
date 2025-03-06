@@ -3,10 +3,10 @@ import json
 from py2neo import Graph, Node, Relationship
 
 # Connect to Neo4j
-graph = Graph("bolt://localhost:7687", auth=("neo4j", "KavithaGraph"))  
+graph = Graph("host", auth=("database_name", "your_password"))  
 
 # Path to your JSON files folder
-json_folder = "C:/Users/Kavitha padala/Desktop/ICM_RAG/json_docs"
+json_folder = "pathtoyourjsondocs"
 
 # Function to insert a ticket into Neo4j
 def insert_ticket_into_neo4j(ticket_data):
