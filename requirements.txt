@@ -1,8 +1,12 @@
 psycopg2
-os
-json
 numpy
 sentence-transformers
 torch
-AutoModelForSequenceClassification
-AutoTokenizer
+langchain_openai
+pandas
+sqlalchemy
+pyodbc
+langchain
+openai
+py2neo
+streamlit
