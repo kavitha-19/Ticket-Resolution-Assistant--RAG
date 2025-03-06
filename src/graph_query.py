@@ -1,7 +1,7 @@
 from py2neo import Graph
 
 # Connect to Neo4j
-graph = Graph("bolt://localhost:7687", auth=("neo4j", "KavithaGraph"))  
+graph = Graph("your_host", auth=("your_databaseName", "your_password"))  
 
 
 # def query_graph_rag(query_text):
@@ -78,7 +78,7 @@ def query_graph_rag(query_text, top_k=5):  # Add top_k parameter
 # from py2neo import Graph
 
 # try:
-#     graph = Graph("bolt://localhost:7687", auth=("neo4j", "KavithaGraph"))  
+# graph = Graph("your_host", auth=("your_databaseName", "your_password"))  
 #     print("Connected to Neo4j successfully!")
 # except Exception as e:
 #     print(f"Error connecting to Neo4j: {e}")
