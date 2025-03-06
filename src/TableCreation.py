@@ -3,11 +3,11 @@ from psycopg2 import sql
 
 # Connect to PostgreSQL Database
 conn = psycopg2.connect(
-    host="127.0.0.1",     # Database Host
-    database="postgres",  # Database Name
-    user="postgres",      # Username
-    password="postgres",  # Password
-    port="5432"           # Port (default for PostgreSQL)
+    host="",     # Database Host
+    database="",  # Database Name
+    user="",      # Username
+    password="",  # Password
+    port=""           # Port (default for PostgreSQL)
 )
 
 # Create a cursor object to interact with the database
