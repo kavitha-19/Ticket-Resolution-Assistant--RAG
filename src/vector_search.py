@@ -5,12 +5,13 @@ from sentence_transformers import SentenceTransformer
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
 # Connect to PostgreSQL
+# Connect to PostgreSQL Database
 conn = psycopg2.connect(
-    host="127.0.0.1",
-    database="postgres",
-    user="postgres",
-    password="postgres",
-    port="5432"
+    host="",     # Database Host
+    database="",  # Database Name
+    user="",      # Username
+    password="",  # Password
+    port=""           # Port (default for PostgreSQL)
 )
 cursor = conn.cursor()
 
