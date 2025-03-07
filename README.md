@@ -41,7 +41,7 @@ The system consists of the following components:
 
 ### 2. Setup Neo4j
 - Install Neo4j and run the instance.
-- Insert tickets into Neo4j using the provided `graphDataInsertion.py` script.
+- Insert tickets into Neo4j using the provided `graphDataInsertion.py` script which is the knowledge graph.
 
 ### 3. Install Dependencies
 Install the required Python dependencies:
