@@ -24,7 +24,7 @@ The system consists of the following components:
 
 5. **AI Services**: 
    - **Vector Search**: Performed using SentenceTransformer's pre-trained model (`all-MiniLM-L6-v2`).
-   - **Semantic Ranking**: Performed using BGE-Reranker-V2m3.
+   - **Semantic Ranking**: Performed using (`BGE-Reranker-V2m3)`.
    - **GraphRAG**: Uses a combination of graph-based queries and semantic ranking to enhance the ticket resolution process, retrieving contextually relevant data from the knowledge graph (Neo4j).
    - **GPT-4**: Provides chat completions based on the query and context.
 
