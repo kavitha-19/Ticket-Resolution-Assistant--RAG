@@ -34,7 +34,6 @@ The system consists of the following components:
 - Ensure you have PostgreSQL running locally or in the cloud or through the Docker.
 - Create the `tickets` table with columns `id`, `data` (jsonb), `body_embedding`, and `answer_embedding`.
   
-    ```
 - Once inside PostgreSQL, create the vector extension:
     ```sql
     CREATE EXTENSION vector;
