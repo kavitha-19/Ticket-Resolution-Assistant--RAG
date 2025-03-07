@@ -1,7 +1,7 @@
 # IT Ticket Resolution Assistant - RAG 
 
 ## Overview
-The IT Ticket Resolution Assistant is an AI-driven solution that uses a combination of vector search, semantic ranking, and GraphRAG (Retrieve and Generate) to automatically resolve IT tickets. This system integrates multiple models and technologies to provide relevant answers based on historical tickets stored in PostgreSQL and Neo4j.
+The IT Ticket Resolution Assistant is an AI-driven solution that uses a combination of vector search, semantic ranking, and GraphRAG (Retrieve and Generate) to automatically provide responses to resolve IT tickets. This system integrates multiple models and technologies to provide relevant answers based on historical tickets stored in PostgreSQL and Neo4j.
 
 ## Features
 - **Vector Search**: Uses Sentence Transformer **all-MiniLM-L6-v2** to find similar tickets based on cosine similarity.
